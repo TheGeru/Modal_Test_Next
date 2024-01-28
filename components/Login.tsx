@@ -8,8 +8,8 @@ const Login = ({onClose}) =>{
     const [password, setPassword] = useState('');
     const handledLogin = () =>{
         console.log(`Email: ${email} | y | Password: ${password}`);
-        
     }
+    
 return(
     <div className={formStyles.modal}>
         <div className={formStyles.modal_content}>

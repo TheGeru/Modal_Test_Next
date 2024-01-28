@@ -7,9 +7,9 @@ const Register = ({onClose}) =>{
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const handledRegister = () =>{
-        console.log(`Email: ${email} | y | Password: ${password}`);
-            
+        console.log(`Email: ${email} | y | Password: ${password}`);          
     }
+
 return(
     <div className={formStyles.modal}>
         <div className={formStyles.modal_content}>
